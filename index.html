@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alivio HTML Project</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- Blocks -->
+    <link rel="stylesheet" href="./css/blocks/btn.css">
+    <link rel="stylesheet" href="./css/blocks/header.css">
+    <link rel="stylesheet" href="./css/blocks/home.css"> 
+    <link rel="stylesheet" href="./css/blocks/how-it-works.css">
+    <link rel="stylesheet" href="./css/blocks/story.css">
+    <link rel="stylesheet" href="./css/blocks/product.css">
+    <link rel="stylesheet" href="./css/blocks/avatar.css">
+    <link rel="stylesheet" href="./css/blocks/card.css">
+    <link rel="stylesheet" href="./css/blocks/footer.css">
+    <link rel="stylesheet" href="./css/blocks/mobile-nav-button.css">
+    <link rel="stylesheet" href="./css/blocks/mobile-nav.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css">
+    <link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css">
+</head>
+<body>
+    <header class="header" >
+        <div class="container">
+            <div class="header-row">
+                <div class="header-logo">
+                    <a href="#toHome">
+                        <img src="./images/logo/Logo.svg" alt="logo">
+                    </a>    
+                </div>
+                <nav class="header-nav">
+                        <ul>
+                            <li><a href="#whyAlivio">Why Alivio</a></li>
+                            <li><a href="#toHowItWorks">Solutions</a></li>
+                            <li><a href="#toStory">Community</a></li>
+                            <li><a href="#toProduct">Pricing</a></li>
+                        </ul>
+                </nav>
+                <div class="header-login">
+                    <a class="header-login-link" href="#">Sign in</a>
+                    <a class="btn" href="#">Start Trial</a>        
+                </div>
+
+                <button type="button" class="mobile-nav-button">
+                    <span class="mobile-nav-button__icon"></span>
+                </button>
+
+            </div>
+        </div>
+    </header> 
+
+    <div class="mobile-nav">
+        <img class="mobile-nav-logo" src="./images/logo/Logo.svg" alt="Logo">
+        <nav class="mobile-nav-list">
+            <ul>
+                <li><a class="mobile-nav-link" href="#whyAlivio">Why Alivio</a></li>
+                <li><a class="mobile-nav-link" href="#toHowItWorks">Solutions</a></li>
+                <li><a class="mobile-nav-link" href="#toStory">Community</a></li>
+                <li><a class="mobile-nav-link" href="#toProduct">Pricing</a></li>
+            </ul>
+        </nav>  
+        <div class="mobile-login">
+            <a href="#">Sign in</a>
+            <a class="btn btn--big" href="#">Start Trial</a>        
+        </div>            
+    </div>
+
+    <main>
+        <section class="home" id="toHome">
+            <div class="container">
+                <div class="home-content">
+                    <h1 class="home-title">
+                        Be aware, Manage well.
+                    </h1>
+                    <div class="home-text">
+                        <p>
+                            Everyone experiences stress in different ways.
+                            Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+                        </p>
+                    </div>
+                    <div class="home-btn">
+                            <a class="btn btn--big" href="#">Find Your Way</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="home-bg-img">
+                <img src="./images/home/bg-img.png" alt="background cover">
+            </div>
+        </section>
+
+        <section class="how-it-works" id="toHowItWorks">
+            <div class="container container--big">
+                <div class="how-it-works-header">
+                    <div class="how-it-works-header-head">
+                        <h2 class="how-it-works-header-title">
+                            How it works
+                        </h2>
+                        <h3 class="how-it-works-header-subtitle">
+                            Understand & Release the stress in 3 steps
+                        </h3>
+                    </div>
+                    <div class="how-it-works-header-content">
+                        <p>
+                            Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.
+                        </p>
+                    </div>
+                </div>
+                <div class="how-it-works-steps" id="whyAlivio">
+                    <div class="step">
+                        <h4 class="step-heading" data-number="01">
+                            Personalize
+                        </h4>
+                       <div class="step-text">
+                           <p>
+                             Answer a quick survey about how you     express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!
+                           </p>
+                       </div>
+    <!-- Чтобы картинка сохраняла свои пропорции, обернем ее в обертку, которая будет определять размер блока под картинку -->
+                       <div class="step-img-wrapper">
+                            <img class="step-img" src="./images/steps/01.jpg" alt="Step Image">
+                       </div>
+
+                    </div>   <!-- // step --> 
+                    <div class="step">
+                        <h4 class="step-heading" data-number="02">
+                            Write & Understand
+                        </h4>
+                       <div class="step-text">
+                           <p>
+                            Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!
+                           </p>
+                       </div>
+    <!-- Чтобы картинка сохраняла свои пропорции, обернем ее в обертку, которая будет определять размер блока под картинку -->
+                       <div class="step-img-wrapper">
+                            <img class="step-img" src="./images/steps/02.jpg" alt="Step Image">
+                       </div>
+
+                    </div>   <!-- // step --> 
+                    <div class="step">
+                        <h4 class="step-heading" data-number="03">
+                            Alivio!
+                        </h4>
+                       <div class="step-text">
+                           <p>
+                            Now you are aware, and have a way to manage and overcome your own stress.
+                            What are you waiting for? Alivio today!
+                           </p>
+                       </div>
+    <!-- Чтобы картинка сохраняла свои пропорции, обернем ее в обертку, которая будет определять размер блока под картинку -->
+                       <div class="step-img-wrapper">
+                            <img class="step-img" src="./images/steps/03.jpg" alt="Step Image">
+                       </div>
+
+                    </div>   <!-- // step --> 
+                </div>   <!-- //how-it-works-steps -->   
+            </div>   <!-- // container -->
+        </section>
+
+        <section class="story" id="toStory">
+            <div class="container container-wide">
+                <div class="story-row">
+                    <div class="story-content">
+                        <div class="story-heading">
+                            <h2>Let's hear about Kayla's success story</h2>
+                        </div>
+                        <div class="story-text">
+                            <p>
+                                See how well Alivio works in a real customer’s life. 
+                            </p>
+                        </div>
+                        <div class="story-btn">
+                            <a class="btn btn-big" href="#">Let’s get started</a>
+                        </div>
+                    </div>
+                  
+                    <div class="story-video">
+
+                        <div id="video-overlay" class="story-video-overlay"> 
+                        <button  class="story-video-btn" id="video-story__btn">
+                            <img id="video-story-btn-icon" width="82" height="82" src="./images/story/play.svg" alt="Play">
+                        </button>
+                           
+                     </div>
+
+
+                        <!-- <img class="story-video-object" src="./images/story/story-video-cover.jpg" alt="Video"> -->
+                     <video poster="./images/story/story-video-cover.jpg" class="story-video-object" id="video-story">
+                        <source src="./video/story_video.mp4" type="video/mp4"></source>
+                     </video>
+
+                    </div>
+                    <!-- story-video -->
+                </div> 
+            </div>
+        </section>
+
+        <section class="product" id="toProduct">
+            <div class="container">
+                <div class="product-row">
+                    <div class="product-img-wrapper">
+                        <img class="product-img" src="./images/product/product-intro.jpg" alt="product image">
+                        <div class="product-card">
+                            <div class="card">
+                                <h3 class="card-title">Customized for</h3> 
+                                <div class="card-avatar">
+                                    <div class="avatar">
+                                        <img class="product-card-img-avatar" src="./images/product/product-img-avatar.jpg" alt="Avatar">
+                                        <h4 class="avatar-name">
+                                            Mikayla
+                                        </h4>
+                                    </div>
+                                </div>
+                               <div class="card-contents">
+                                   <h3 class="card-contents-title">
+                                    Your custom contents
+                                   </h3>
+                                   <ul>
+                                       <li>Understand Your Stress</li>
+                                       <li>Anger Management</li>
+                                   </ul>
+                            
+                               </div>
+                                
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-content">
+                        <h2 class="product-content-title">
+                            Our product
+                        </h2>
+                        <h3 class="product-content-subtitle">
+                            You tell us your stress,
+                                We make your diary
+                        </h3>
+                        <div class="product-content-text">
+                            <p>
+                                Everyone experiences it, and in different ways.
+                                Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+                            </p>
+                        </div>
+                         <div class="product-content-btn">
+                            <a class="btn btn-big" href="#">
+                                Find your way
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                   <a class="footer-logo-link" href="#toHome"><img class="footer-logo" src="./images/footer/footer-logo.svg" alt="Footer logo"></a>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li>
+                                <a href="#whyAlivio">Why Alivio</a>
+                            </li>
+                            <li>
+                                <a href="#toHowItWorks"> Solutions</a>
+                            </li>
+                            <li>
+                                <a href="#toStory">Community</a>
+                            </li>
+                            <li>
+                                <a href="#toProduct">Pricing</a>
+                            </li>
+                        </ul>
+                    </nav>
+     
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>

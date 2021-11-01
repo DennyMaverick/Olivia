@@ -1,0 +1,72 @@
+html {
+    font-size: 10px;
+    scroll-behavior: smooth !important;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 2rem;
+    color: #424242;
+    /* min-width: 160rem; */
+}
+
+@media (max-width: 991px) { 
+    body {
+        font-size: 1.8rem;
+    }
+}
+
+/* utility */
+
+.none {
+    display: none !important;
+}
+
+.visibility-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+/* Grid - сетка*/
+
+.container {
+    max-width: 140rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1399px) {
+    .container {
+        width: 100%;
+    }               
+}
+.container-wide {
+    max-width: 153.6rem;
+}
+.container--big {
+    max-width: 143rem;
+}
+@media (max-width: 1535px) {
+    .container-wide {
+        width: 100%;
+    }
+}
+@media (max-width: 1404px) {
+    .container--big {
+        width: 100%;
+    }
+}
